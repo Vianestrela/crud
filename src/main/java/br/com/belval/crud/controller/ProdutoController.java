@@ -12,7 +12,7 @@ public class ProdutoController {
 	public String novo() {
 		return "novo-produto";
 	}
-
+		/*vivitest*/
 	@PostMapping("/produto/novo")
 	public ModelAndView novo(Produto produto) {
 		ModelAndView modelAndView = new ModelAndView("novo-produto-criado");
